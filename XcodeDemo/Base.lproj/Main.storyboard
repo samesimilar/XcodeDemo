@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6m8-UH-SzU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2320" y="-324"/>
+            <point key="canvasLocation" x="2212" y="-341"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="Bnr-QZ-IAL">
@@ -103,7 +103,7 @@
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="I0x-rY-Wjj" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYt-dq-elc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3070" y="-324"/>
+            <point key="canvasLocation" x="2936" y="-341"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ffd-3Q-aic">
@@ -120,7 +120,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zh0-uX-9Yn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="685" y="-341"/>
+            <point key="canvasLocation" x="717" y="-341"/>
         </scene>
         <!--Feedback-->
         <scene sceneID="Flv-Ug-O5O">
@@ -201,7 +201,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Relationship to UofT" id="P93-Lq-8UU">
+                            <tableViewSection headerTitle="Reltionship to UofT" id="P93-Lq-8UU">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" rowHeight="100" id="8cD-xn-u7C">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -286,7 +286,6 @@
                                                     <segments>
                                                         <segment title="Not valuable"/>
                                                         <segment title="No opinion"/>
-                                                        <segment title="Valuable"/>
                                                     </segments>
                                                 </segmentedControl>
                                             </subviews>
@@ -385,9 +384,6 @@
                                                             <integer key="value" value="8"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
-                                                    <connections>
-                                                        <action selector="submitButtonAction:" destination="R09-fe-Cxw" eventType="touchUpInside" id="x8R-dz-6H0"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -427,7 +423,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3VW-LD-hkC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749" y="358"/>
+            <point key="canvasLocation" x="717" y="326"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
