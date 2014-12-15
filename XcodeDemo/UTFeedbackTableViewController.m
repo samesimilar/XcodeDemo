@@ -8,6 +8,7 @@
 
 #import "UTFeedbackTableViewController.h"
 
+// UTFeedbackTableViewController has references to the form items on the feedback view and submits them to a server then the submit button is pressed.
 @interface UTFeedbackTableViewController ()
 
 @end
@@ -32,9 +33,36 @@
 - (IBAction)submitButtonAction:(id)sender
 {
     UIButton * theButton = (UIButton *) sender;
-    [theButton setTitle:@"Thank you!" forState:UIControlStateNormal];
+    [theButton setTitle:@"Submitting..." forState:UIControlStateNormal];
     theButton.enabled = NO;
-    theButton.backgroundColor = [UIColor colorWithRed:0.000 green:0.774 blue:0.097 alpha:1.000];
+    theButton.backgroundColor = [UIColor colorWithWhite:0.900 alpha:1.000];
+    
+    NSURLSession * urlSession  =[NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    
+    NSString * urlString = [NSString stringWithFormat:@"http://localhost:3000/feedback?relationship=%@&value=%@&difficulty=%@",
+                              @(self.relationshipSelector.selectedSegmentIndex),
+                              @(self.valueSelector.selectedSegmentIndex),
+                              @(self.difficultySelector.selectedSegmentIndex)];
+    
+    // Submit our data asynchronously using an HTTP GET request
+    
+    [[urlSession dataTaskWithURL:[NSURL URLWithString:urlString] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        NSHTTPURLResponse * httpResponse = (NSHTTPURLResponse *) response;
+        
+        // This block may be called on a secondary thread. To update the UI we must submit our updates on the main thread (using NSOperationQueue in this case).
+        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+            if (!error && httpResponse.statusCode == 200) {
+                [theButton setTitle:@"Thank you!" forState:UIControlStateNormal];
+                theButton.backgroundColor = [UIColor colorWithRed:0.000 green:0.774 blue:0.097 alpha:1.000];
+            } else {
+                [theButton setTitle:@"Connection Error" forState:UIControlStateNormal];
+                theButton.backgroundColor  =[UIColor colorWithRed:0.580 green:0.212 blue:0.204 alpha:1.000];
+            }
+        }];
+        
+    }] resume];
+                                 
+    
 }
 
 @end

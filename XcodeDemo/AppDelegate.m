@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "UTVideos.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic) UTVideos * videos;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.videos = [[UTVideos alloc] init];
+    
     return YES;
 }
 

@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class UTVideos;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, readonly) UTVideos * videos;
 
 @end
 
