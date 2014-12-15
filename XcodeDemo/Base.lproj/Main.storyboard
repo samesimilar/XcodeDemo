@@ -139,7 +139,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLS-TN-Tea">
-                                                    <rect key="frame" x="16" y="16" width="568" height="150.5"/>
+                                                    <rect key="frame" x="8" y="16" width="576" height="150.5"/>
                                                     <attributedString key="attributedText">
                                                         <fragment>
                                                             <string key="content">We appreciate your feedback. 
@@ -192,7 +192,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="kLS-TN-Tea" firstAttribute="leading" secondItem="F0h-Iz-sf2" secondAttribute="leadingMargin" constant="8" id="2Mb-Yb-VU2"/>
+                                                <constraint firstItem="kLS-TN-Tea" firstAttribute="leading" secondItem="F0h-Iz-sf2" secondAttribute="leadingMargin" id="2Mb-Yb-VU2"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="kLS-TN-Tea" secondAttribute="trailing" constant="8" id="Evh-7D-Mwq"/>
                                                 <constraint firstItem="kLS-TN-Tea" firstAttribute="top" secondItem="F0h-Iz-sf2" secondAttribute="topMargin" constant="8" id="ZTD-3y-Sr3"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="kLS-TN-Tea" secondAttribute="bottom" constant="8" id="sdQ-pX-Z1s"/>
@@ -209,7 +209,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3ek-0Q-GE2">
-                                                    <rect key="frame" x="16" y="36" width="576" height="29"/>
+                                                    <rect key="frame" x="8" y="36" width="584" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="28" id="Fsf-bg-Sz0"/>
                                                     </constraints>
@@ -221,7 +221,7 @@
                                                 </segmentedControl>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="3ek-0Q-GE2" firstAttribute="leading" secondItem="O0B-uY-5fb" secondAttribute="leadingMargin" constant="8" id="gjx-Vm-b18"/>
+                                                <constraint firstItem="3ek-0Q-GE2" firstAttribute="leading" secondItem="O0B-uY-5fb" secondAttribute="leadingMargin" id="gjx-Vm-b18"/>
                                                 <constraint firstAttribute="centerY" secondItem="3ek-0Q-GE2" secondAttribute="centerY" id="oBP-dY-XJT"/>
                                                 <constraint firstItem="3ek-0Q-GE2" firstAttribute="trailing" secondItem="O0B-uY-5fb" secondAttribute="trailingMargin" id="tJK-rY-Zh2"/>
                                             </constraints>
@@ -237,7 +237,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNc-F0-Bdf">
-                                                    <rect key="frame" x="16" y="16" width="584" height="67.5"/>
+                                                    <rect key="frame" x="8" y="16" width="592" height="67.5"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Please rate the value and difficulty of the content.">
                                                             <attributes>
@@ -268,7 +268,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="sNc-F0-Bdf" secondAttribute="bottom" constant="8" id="SzQ-iI-2m8"/>
                                                 <constraint firstItem="sNc-F0-Bdf" firstAttribute="trailing" secondItem="p3B-cQ-hzM" secondAttribute="trailingMargin" constant="8" id="klD-4d-ou5"/>
-                                                <constraint firstItem="sNc-F0-Bdf" firstAttribute="leading" secondItem="p3B-cQ-hzM" secondAttribute="leadingMargin" constant="8" id="pW8-Bc-X8t"/>
+                                                <constraint firstItem="sNc-F0-Bdf" firstAttribute="leading" secondItem="p3B-cQ-hzM" secondAttribute="leadingMargin" id="pW8-Bc-X8t"/>
                                                 <constraint firstItem="sNc-F0-Bdf" firstAttribute="top" secondItem="p3B-cQ-hzM" secondAttribute="topMargin" constant="8" id="yD3-Zv-kKD"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -279,7 +279,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="I4m-Fz-msI">
-                                                    <rect key="frame" x="16" y="36" width="576" height="29"/>
+                                                    <rect key="frame" x="8" y="36" width="584" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="28" id="ow7-ZC-tRg"/>
                                                     </constraints>
@@ -291,7 +291,7 @@
                                                 </segmentedControl>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="I4m-Fz-msI" firstAttribute="leading" secondItem="TPH-kA-3xW" secondAttribute="leadingMargin" constant="8" id="e3V-HA-597"/>
+                                                <constraint firstItem="I4m-Fz-msI" firstAttribute="leading" secondItem="TPH-kA-3xW" secondAttribute="leadingMargin" id="e3V-HA-597"/>
                                                 <constraint firstAttribute="centerY" secondItem="I4m-Fz-msI" secondAttribute="centerY" id="t1L-GB-UAT"/>
                                                 <constraint firstItem="I4m-Fz-msI" firstAttribute="trailing" secondItem="TPH-kA-3xW" secondAttribute="trailingMargin" id="tvb-rx-bp8"/>
                                             </constraints>
@@ -303,7 +303,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rtw-gN-vrY">
-                                                    <rect key="frame" x="16" y="36" width="576" height="29"/>
+                                                    <rect key="frame" x="8" y="36" width="584" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="28" id="LSP-3Q-qXr"/>
                                                     </constraints>
@@ -316,7 +316,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="rtw-gN-vrY" firstAttribute="trailing" secondItem="ofk-RI-2T6" secondAttribute="trailingMargin" id="O6R-Xg-QTs"/>
-                                                <constraint firstItem="rtw-gN-vrY" firstAttribute="leading" secondItem="ofk-RI-2T6" secondAttribute="leadingMargin" constant="8" id="Xka-yO-ElX"/>
+                                                <constraint firstItem="rtw-gN-vrY" firstAttribute="leading" secondItem="ofk-RI-2T6" secondAttribute="leadingMargin" id="Xka-yO-ElX"/>
                                                 <constraint firstAttribute="centerY" secondItem="rtw-gN-vrY" secondAttribute="centerY" id="Zx1-jo-YBa"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -331,7 +331,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCt-LW-V2E">
-                                                    <rect key="frame" x="16" y="16" width="584" height="67.5"/>
+                                                    <rect key="frame" x="8" y="16" width="592" height="67.5"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="We appreciate your feedback!">
                                                             <attributes>
@@ -361,7 +361,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="hCt-LW-V2E" firstAttribute="trailing" secondItem="PWC-Ta-7Ql" secondAttribute="trailingMargin" constant="8" id="47m-kc-fXD"/>
-                                                <constraint firstItem="hCt-LW-V2E" firstAttribute="leading" secondItem="PWC-Ta-7Ql" secondAttribute="leadingMargin" constant="8" id="JBN-FU-jXw"/>
+                                                <constraint firstItem="hCt-LW-V2E" firstAttribute="leading" secondItem="PWC-Ta-7Ql" secondAttribute="leadingMargin" id="JBN-FU-jXw"/>
                                                 <constraint firstItem="hCt-LW-V2E" firstAttribute="top" secondItem="PWC-Ta-7Ql" secondAttribute="topMargin" constant="8" id="QDu-lr-YUo"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="hCt-LW-V2E" secondAttribute="bottom" constant="8" id="zbK-8j-S96"/>
                                             </constraints>
@@ -373,13 +373,18 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdt-VL-l75">
-                                                    <rect key="frame" x="16" y="16" width="568" height="67.5"/>
+                                                    <rect key="frame" x="8" y="16" width="576" height="67.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.35050752759999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <state key="normal" title="Submit">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="8"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="submitButtonAction:" destination="R09-fe-Cxw" eventType="touchUpInside" id="x8R-dz-6H0"/>
                                                     </connections>
@@ -388,7 +393,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Xdt-VL-l75" secondAttribute="trailing" constant="8" id="2qi-09-Xf4"/>
                                                 <constraint firstItem="Xdt-VL-l75" firstAttribute="top" secondItem="Wsl-KW-db4" secondAttribute="topMargin" constant="8" id="VjJ-I7-edt"/>
-                                                <constraint firstItem="Xdt-VL-l75" firstAttribute="leading" secondItem="Wsl-KW-db4" secondAttribute="leadingMargin" constant="8" id="ZXj-Ts-aBz"/>
+                                                <constraint firstItem="Xdt-VL-l75" firstAttribute="leading" secondItem="Wsl-KW-db4" secondAttribute="leadingMargin" id="ZXj-Ts-aBz"/>
                                                 <constraint firstItem="Xdt-VL-l75" firstAttribute="trailing" secondItem="Wsl-KW-db4" secondAttribute="trailingMargin" constant="8" id="s6z-IA-lUG"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Xdt-VL-l75" secondAttribute="bottom" constant="8" id="tq5-fP-i9X"/>
                                             </constraints>
